@@ -7,7 +7,7 @@ Run the following command in the installation directory.
 make
 ```
 This will build the files.
-To simulate the project run the following commands, each in different terminals and in the same order.
+To simulate the project run the following commands, each in different terminal and in the same order.
 ```sh
 server1
 ```
