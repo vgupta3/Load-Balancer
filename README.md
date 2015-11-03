@@ -9,11 +9,15 @@ make
 This will build the files.
 To simulate the project run the following commands, each in different terminals and in the same order.
 ```sh
-make
+server1
 ```
 ```sh
-make
+server2
 ```
 ```sh
-make
+server3
 ```
+```sh
+balancer
+```
+Now you can run different instances of client program in different terminals to see how the balancer schedules the tasks to different servers.
